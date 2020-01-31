@@ -4,12 +4,12 @@
 
 int team_names_init(void)
 {
-pr_alert("Jose Elenes, Elizabeth Ramizes, Mei Lu\n");
+pr_alert("Jose Elenes, Elizabeth Ramirez, Mei Lu\n");
 return 0;
 }
 void team_names_exit(void)
 {
-pr_alert("Jose Elenes, Elizabeth Ramizes, Mei Lu\n");
+pr_alert("Jose Elenes, Elizabeth Ramirez, Mei Lu\n");
 }
  
 module_init(team_names_init);
